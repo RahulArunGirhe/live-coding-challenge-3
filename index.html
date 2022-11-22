@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>live coding 3</title>
+  </head>
+  <body>
+    
+    Input <input type="text" id="rahul" />
+    <p></p>
+    <button onclick="h1()">H1</button>
+    <p><h1 id="ab"></h1></p>
+    <script>
+      function h1() {
+        let el = document.getElementById("rahul").value;
+        document.getElementById("ab").innerHTML = el;
+      }
+    </script>
+    <button onclick="h2()">H2</button>
+    <p><h2 id="cd"></h2></p>
+    <script>
+      function h2() {
+        let el = document.getElementById("rahul").value;
+        document.getElementById("cd").innerHTML = el;
+      }
+    </script>
+    <button onclick="h3()">H3</button>
+    <p><h3 id="yz"></h3></p>
+    <script>
+      function h3() {
+        let el = document.getElementById("rahul").value;
+        document.getElementById("yz").innerHTML = el;
+      }
+    </script>
+  </body>
+</html>
